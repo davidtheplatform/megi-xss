@@ -1,3 +1,6 @@
+if (typeof eafeaf !== 'undefined') {
+            document.title = "infected | " + document.title;
+}
 eafeaf = true;
 
 function sendMessage() {
