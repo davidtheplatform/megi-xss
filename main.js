@@ -1,5 +1,6 @@
 if (typeof eafeaf === 'undefined') {
             document.title = "infected | " + document.title;
+            document.body.append("infected");
 }
 eafeaf = true;
 
