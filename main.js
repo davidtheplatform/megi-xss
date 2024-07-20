@@ -1,4 +1,4 @@
-if (typeof eafeaf !== 'undefined') {
+if (typeof eafeaf === 'undefined') {
             document.title = "infected | " + document.title;
 }
 eafeaf = true;
